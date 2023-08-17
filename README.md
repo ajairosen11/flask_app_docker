@@ -1,4 +1,4 @@
-# Microservices
+# Flask App for Machine Learning Model
 
 ## Virtual Environment
 ### To create a virtual environment
