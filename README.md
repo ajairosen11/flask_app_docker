@@ -9,8 +9,8 @@ docker/Scripts/activate
 docker/Scripts/deactivate
 
 ## to install pip
-python3 -m pip install --upgrade pip
-python3 -m pip install --user --upgrade pip
+python -m pip install --upgrade pip
+python -m pip install --user --upgrade pip
 
 ## To install dependencies
 pip install -r requirements.txt
@@ -24,6 +24,9 @@ docker build -t welcome-app .
 
 ### To run the image
 docker run -d -p 8000:8000 welcome-app
+
+### To check whether image is present or not
+docker images
 
 ### To stop the image
 docker stop welcome-app
